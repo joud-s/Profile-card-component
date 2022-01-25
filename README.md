@@ -19,7 +19,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![](https://github.com/joud-s/Profile-card-component/blob/main/images/Screenshot%20.png)
 ![](./images/Screenshot hover.png)
 ![](./images/Screenshot mobile.png)
 
