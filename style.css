@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background: var(--Dark-cyan);
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.main {
+  overflow: hidden;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  position: relative;
+}
+.card {
+  width: 325px;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: all 1s ease-out;
+}
+
+.card .pattern {
+  position: relative;
+  width: 100%;
+}
+.card-body .victor {
+  border-radius: 50%;
+  position: relative;
+  margin-top: -3rem;
+  border: 0.5rem solid white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.card-body .victor:hover {
+  border: 0.5rem solid rgb(52, 219, 149);
+}
+.card-body {
+  position: relative;
+}
+.name {
+  padding-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+.name span {
+  font-weight: 400;
+  padding-left: 0.4rem;
+  color: var(--Dark-grayish-blue);
+}
+.city {
+  padding-bottom: 2rem;
+}
+.city,
+h5 {
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+}
+.details {
+  border-top: 0.03rem solid var(--Dark-gray);
+  display: flex;
+  padding: 0 1.5rem;
+}
+.details .row {
+  flex: 1;
+  padding: 2rem 0;
+}
+.background {
+  position: absolute;
+  /* overflow: hidden; */
+}
+.background .circle-1 {
+  top: -928px;
+  left: -944px;
+  position: absolute;
+}
+.background .circle-2 {
+  bottom: -928px;
+  position: absolute;
+  right: -944px;
+}
